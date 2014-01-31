@@ -1,3 +1,6 @@
+CREATE DATABASE q12014
+    ENCODING = 'UTF-8';
+
 CREATE TABLE applications(
     application_id BIGSERIAL UNIQUE NOT NULL,
     application_name VARCHAR UNIQUE NOT NULL,
